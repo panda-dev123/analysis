@@ -5,9 +5,9 @@ import "firebase/firestore";
 // Make sure it hasn't already been initialized
 if (!firebase.apps.length) {
   firebase.initializeApp({
-    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-    authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+    apiKey: "AIzaSyBj6nGrCAR5CIsaksTEDtmHjfoPOHMKUus",
+    authDomain: "driver-app-dev-53601.firebaseapp.com",
+    projectId: "driver-app-dev-53601"
   });
 }
 
